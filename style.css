@@ -5,22 +5,33 @@ h1{
     font-size: 50px;
 }
 .orange-color{
-    color: orange;
+    color: rgb(223, 62, 62);
 }
 section{
     display: flex;
+    margin-bottom: 150px;
 }
 .half-width{
     width: 50%;
-    padding-left: 5%;
+    padding-left: 2%;
 }
 .half-width img{
-    width: 100%;
+    width: 80%;
+}
+
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
 .link-button{
-    text-decoration: none;
-    background-image: linear-gradient(red, yellow);
     color: white;
-    font-size: 400;
-    padding: 40px 10px;
+    background-image: linear-gradient(rgb(235, 95, 30), crimson );
+    border: crimson;
+    padding: 10px 32px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
 }
