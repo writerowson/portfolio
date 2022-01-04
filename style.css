@@ -54,16 +54,17 @@ h2{
     margin-right: 5%;
     padding-left: 20px;
     border-radius: 15px;
-    
+    border-right: 10px blue;
 }
 #web-dev-exp{
-    border-left: 7px solid;
-    background-image: linear-gradient(rgba(32, 9, 241, 0.945) rgb(226, 8, 37));
+    border-left: 7px solid-color;
+    background-image: linear-gradient(blue, purple);
     border-image-slice: 1;
 }
 #baby-dev-experience{
     border-left: 7px solid;
-    background-image: linear-gradient(rgb(255, 38, 0) yellow);
+    background-image: linear-gradient(green, red);
+    border-image-slice: 1;
 }
 footer p{
     text-align: center;
